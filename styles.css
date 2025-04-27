@@ -1,0 +1,454 @@
+header, footer, body, article, aside, section, video, audio, select, contactinfo, img, table, ul, li, legend, label, option, fieldset, fieldsetfieldset, h1, h2, h4, h5, ol, p {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+}
+
+img, video {
+  max-width: 100%;
+  height: auto;
+  width: auto;
+  display: block;
+}
+
+img {
+  max-width: 75%;
+  height: auto;
+  width: auto;
+  display: block;
+  text-align: center;
+}
+
+ol, ul {
+  list-style-type: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  max-width: 960px;
+  margin: 0 auto;
+  font-family: times new roman,times,sans-serif;
+  background: #add8e6;
+  background: url(images/desknapkin.jpg);
+  position: relative;
+}
+
+p {
+  line-height: 1em;
+  font-size: 1em;
+}
+
+a:link {
+  color: #000;
+}
+
+a:visited {
+  color: #b9ffff;
+}
+
+p.skipnavigation a {
+  position: absolute;
+  left: -10000px;
+}
+
+p.skipnavigation a:focus {
+  color: ivory;
+  background-color: #13a0b0;
+  top: .4em;
+  left: auto;
+  right: .4em;
+  z-index: 2;
+}
+
+header {
+  max-width: 640px;
+  top: 0;
+  text-align: right;
+}
+
+header h3, h5 {
+  color: #b30000;
+}
+
+h2 {
+  margin-bottom: .4em;
+  margin-left: 1em;
+}
+
+div .navigation-menu-button {
+  display: none;
+}
+
+nav.sitenavigation {
+  text-align: center;
+  background-color: #ae0000;
+}
+
+nav.sitenavigation li {
+  margin: .3em .5em;
+  display: inline-block;
+  font-size: 1.3em;
+  line-height: 1.4em;
+  padding: .3em 0;
+  -webkit-transition-duration: .2s;
+  transition-duration: .2s;
+  -webkit-transition-timing-function: ease-in;
+  transition-timing-function: ease-in;
+}
+
+nav.sitenavigation li:hover {
+  background-color: #fd4267;
+  –ms-transform: scale(1.4);
+  –webkit-transform: scale(1.4);
+  transform: scale(1.4);
+}
+
+nav.sitenavigation a:link {
+  text-decoration: none;
+  color: snow;
+}
+
+nav.sitenavigation a:visited {
+  color: #f81633;
+}
+
+nav.sitenavigation a:hover, nav.sitenavigation a:focus {
+  color: #02e3fd;
+}
+
+.container {
+  max-width: 640px;
+  margin: 0 auto;
+  position: relative;
+  top: 0;
+  overflow: auto;
+}
+
+p {
+  margin-bottom: .4em;
+  margin-top: .4em;
+}
+
+header, footer {
+  text-align: center;
+  background-color: #add8e6;
+  padding: .5em;
+}
+
+.oval {
+  height: 25px;
+  width: 400px;
+  border-radius: 50%;
+  background-color: #feddd1;
+  border: 3px solid #f85118;
+  margin: 1em auto;
+  margin-bottom: 0;
+  clear: both;
+}
+
+h4 {
+  margin-top: .3em;
+}
+
+article {
+  background-color: #f5f5f5;
+  width: 50%;
+  float: right;
+  padding: 2%;
+  padding-bottom: .5em;
+  z-index: 2;
+}
+
+aside {
+  background-color: #ffd5c6;
+  background: linear-gradient(#ff6931,#fff);
+  width: 40%;
+  float: left;
+  padding: 1em 0;
+  padding-bottom: 1.4em;
+  z-index: 3;
+  border: 4px solid #bd091b;
+}
+
+aside h2, p, h3, h4 {
+  padding-left: 2em;
+}
+
+h5 {
+  padding-left: 1em;
+}
+
+.contact {
+  font-size: .9em;
+  font-weight: 700;
+  text-align: center;
+}
+
+.accent {
+  font-style: italic;
+  color: #bd091b;
+}
+
+.fork {
+  font-weight: 700;
+}
+
+header h3:first-letter  {
+  font-size: 1.8em;
+  line-height: .9em;
+  color: #9d0000;
+}
+
+section {
+  max-width: 640px;
+  width: 100%;
+  background: #ffd5c6;
+  z-index: 4;
+}
+
+span {
+  color: red;
+}
+
+#logo {
+  padding: .2em;
+  position: absolute;
+  top: -.5em;
+  left: 1em;
+  font-size: 3em;
+  text-shadow: 6px 5px 4px #f8f8ff;
+}
+
+.logo2 {
+  font-size: 2em;
+  border: 3px solid #f85118;
+  margin: .4em auto;
+}
+
+div {
+  max-width: 640px;
+  width: 100%;
+  background-color: #f5f5f5;
+}
+
+.info {
+  font-size: 1.5em;
+  line-height: 1.5em;
+  text-align: center;
+}
+
+h5 {
+  font-size: 2em;
+  border: 0;
+}
+
+section figure {
+  width: auto;
+  padding: 1%;
+  border: 2px solid #bd091b;
+  margin-bottom: .5em;
+  margin-top: 4em;
+  background: #ffd5c6;
+}
+
+section .top-photo {
+  margin-top: 0;
+}
+
+td, th {
+  border: 1px solid #000;
+  font-size: 1.3em;
+  padding: .4em;
+  text-align: center;
+}
+
+table {
+  width: 100%;
+  border: 2px solid #ffd5c6;
+}
+
+th {
+  background-color: #add8e6;
+}
+
+.table-heading-column {
+  background-color: #ffd5c6;
+}
+
+.table-data-columns {
+  background-color: #f5f5f5;
+}
+
+.row {
+  display: table-row;
+}
+
+.row div {
+  display: table-cell;
+  padding: .25em .5em;
+}
+
+.category {
+  font-weight: 700;
+}
+
+form {
+  padding: 10px;
+  background-color: #fff0ea;
+}
+
+fieldset {
+  margin-bottom: 1em;
+}
+
+legend {
+  font-size: 1.25em;
+}
+
+fieldset fieldset {
+  margin-top: 1em;
+  padding: .8em;
+  border: 1px solid #b30000;
+}
+
+.deliveryinfo legend, .orderinfo legend, .additionalinfo legend {
+  margin-left: -.1em;
+  font-weight: 700;
+}
+
+.submitbutton {
+  padding-top: .5em;
+  text-align: center;
+}
+
+.contactinfo input, textarea {
+  border: 1px solid #b30000;
+  padding: .2em;
+  font-size: 1em;
+  text-align: left;
+}
+
+select {
+  margin-bottom: .6em;
+  font-size: 1em;
+}
+
+#submit {
+  border: none;
+  padding: .4em .6em;
+  background-color: #add8e6;
+  font-size: 1.25em;
+  border-radius: 10px;
+}
+
+label {
+  font-size: 1em;
+}
+
+.feedback-preview p {
+  margin-bottom: .3em;
+}
+
+.feedback-content {
+  padding: .4em .2em 0;
+}
+
+.contactinfo label {
+  display: inline-block;
+  position: relative;
+  margin: .8em 0;
+}
+
+.toppinginfo label, .sandwichesinfo label {
+  margin-right: 1.6em;
+}
+
+.sidesinfo label {
+  position: absolute;
+  left: -10000px;
+}
+
+.show {
+  display: block;
+}
+
+footer {
+  clear: right;
+  clear: left;
+}
+
+@media screen and (min-width:720px),print {
+  body {
+    padding: 1em;
+  }
+  .container {
+    border: 2em;
+  }
+  h1 {
+    font-size: 2.5em;
+    line-height: 1.4em;
+    text-align: center;
+  }
+  div .navigation-menu-button img {
+    display: inline-block;
+  }
+  subsection {
+    display: block;
+  }
+}
+
+@media screen and (min-width:1000px),print {
+  nav.sitenavigation {
+    position: static;
+    text-align: center;
+  }
+  nav.sitenavigation img {
+    display: none;
+  }
+  nav.sitenavigation ul {
+    display: block;
+    position: static;
+  }
+  nav.sitenavigation li {
+    display: inline-block;
+  }
+  .info {
+    width: 65%;
+    margin-top: 1em;
+    float: left;
+  }
+  .info img:last-child {
+    display: inline;
+  }
+}
+
+@media screen and (min-width:1238px),print {
+  body {
+    width: 1200px;
+  }
+}
+
+@media print {
+  body, h2, article {
+    color: #000;
+    background: #fff;
+  }
+  body {
+    max-width: 100%;
+  }
+  nav {
+    display: none;
+  }
+}
+
+@page {
+  margin: .75in;
+}

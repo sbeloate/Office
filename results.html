@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Yummy Bitez - Order Online</title>
+      <!-- 
+         Yummy Bitez - Order Online
+         Filename: order.html
+
+         Author:   
+         Date:     
+         HTML5 and CSS3 Illustrated Unit J, Skills Review
+      -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width">
+      <script src="modernizr.custom.40753.js"></script>
+      <link href='http://fonts.googleapis.com/css?family=Playfair+Display:900' rel='stylesheet' type='text/css'>
+      <link rel="stylesheet" href="styles.css">
+      <link rel="shortcut icon" href="images/favicon.ico">
+      <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+      <link rel="icon" sizes="192x192" href="images/android.png">
+   </head>
+   <body>
+      <div class="container">
+         <p class="skipnavigation"><a href="#contentstart">Skip navigation</a></p> 
+         <header>
+            
+            <h1> &#127828; YUMMY BITEZ &#127839; </h1>
+         </header>
+         <nav class="sitenavigation">
+            <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="order.html">Order</a></li>
+            <li><a href="bookingschedule.html">Schedule</a></li>
+            <li><a href="https://www.wunderground.com/weather/us/tn/covington" target="_blank">Local weather</a></li>
+            <li><a href="index.html#hours">Hours</a></li>
+         </ul>
+         </nav>
+         <article id="contentstart">
+            <h2>Your form has been submitted</h2>
+               <h3>You entered the following data:</h3>
+         
+               <script>
+                   var formData = location.search;
+                   formData = formData.substring(1, formData.length);
+                   while (formData.indexOf("+") !== -1) {
+                      formData = formData.replace("+", " ");
+                   }
+                   formData = decodeURIComponent(formData);
+                   var formArray = formData.split("&");
+                   for (var i = 0; i < formArray.length; i = i + 1) {
+                      document.write("<p>" + formArray[i] + "</p>");
+                   }
+               </script>
+         </article>
+        <footer>
+               <p class="contact">&#127828; Yummy Bitez &#127839; Food Truck</p>
+               <p class="contact">123 Imaginary Lane Covington Tn 38019</p>
+               <p class="contact"> &#x1f374; (123) 456-7890 &#127860;</p>
+         </footer>
+      </div>
+   </body>
+</html>
